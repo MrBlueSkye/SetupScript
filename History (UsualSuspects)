@@ -1,0 +1,8 @@
+   10  sudo add-apt-repository ppa:embrosyn/cinnamon
+   11  sudo apt update && sudo apt install cinnamon
+   31  sudo apt install pip
+   42  sudo apt install cinnamon-desktop-environment 
+   45  sudo apt install sddm
+   66  sudo add-apt-repository ppa:numix/ppa
+   68  sudo apt update
+   69  sudo apt-get install numix-gtk-theme numix-icon-theme-circle
