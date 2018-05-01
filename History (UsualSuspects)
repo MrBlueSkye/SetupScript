@@ -7,3 +7,5 @@ sudo add-apt-repository ppa:numix/ppa
 sudo apt update
 sudo apt-get install numix-gtk-theme numix-icon-theme-circle
 sudo apt install tree
+sudo add-apt-respository ppa:kubuntu-ppa/ppa
+sudo apt install kubuntu-desktop
