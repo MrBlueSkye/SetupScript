@@ -1,11 +1,23 @@
+DESKTOP
+
+-KDE
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+sudo apt-get update && sudo apt-get upgrade
+sudo apt install kubuntu-desktop
+-CINNAMON
 sudo add-apt-repository ppa:embrosyn/cinnamon
-sudo apt update && sudo apt install cinnamon
-sudo apt install pip
+sudo apt-get update && sudo apt-get upgrade
 sudo apt install cinnamon-desktop-environment 
-sudo apt install sddm
+-NUMIX ICONS
 sudo add-apt-repository ppa:numix/ppa
 sudo apt update
 sudo apt-get install numix-gtk-theme numix-icon-theme-circle
+
+
+NETWORK TOOLS
+sudo apt install pip
+sudo apt install sddm
+
 sudo apt install tree
 sudo add-apt-respository ppa:kubuntu-ppa/ppa
 sudo apt install kubuntu-desktop
